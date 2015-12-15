@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!--
+		<remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
+	-->
+
+    <project name="sombree/android_kernel_samsung_jf" path="kernel/samsung/jfvelte" remote="github" />
+    <project name="sombree/android_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github" />
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!--
+  <project name="CyanogenMod/android_device_samsung_i9500" path="device/samsung/i9500" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="CyanogenMod/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" />
+	-->
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
+  
+</manifest>

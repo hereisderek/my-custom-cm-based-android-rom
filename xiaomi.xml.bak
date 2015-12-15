@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="mirom"
+          fetch="git://github.com/" />
+           
+    <!-- CM replacements -->
+  
+  <remove-project path="system/core" name="CyanogenMod/android_system_core" />
+  <remove-project path="system/netd" name="CyanogenMod/android_system_netd" />
+  <remove-project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <!-- Device -->
+  <project path="device/xiaomi/mione_plus" name="mirom/android_device_xiaomi_mione_plus" remote="mirom" revision="cm-10.1" />
+  <project path="device/xiaomi/msm8660-common" name="mirom/android_device_xiaomi_msm8660-common" remote="mirom" revision="cm-10.1" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/mione_plus" name="mirom/android_vendor_xiaomi_mione_plus" remote="mirom" revision="cm-10.1" />
+  <!-- Local Projects -->
+  <project path="system/core" name="mirom/android_system_core" remote="mirom" revision="cm-10.1" />
+  <project path="system/netd" name="mirom/android_system_netd" remote="mirom" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="mirom/android_external_wpa_supplicant_8" remote="mirom" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="mirom/android_hardware_libhardware_legacy" remote="mirom" revision="cm-10.1" />
+  <project path="frameworks/base" name="mirom/android_frameworks_base" remote="mirom" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="mirom/android_frameworks_opt_telephony" remote="mirom" revision="cm-10.1" />
+  <project path="bootable/recovery" name="mirom/android_bootable_recovery" remote="mirom" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="mirom/android_hardware_qcom_display-legacy" remote="mirom" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="mirom/android_hardware_qcom_media-legacy" remote="mirom" revision="cm-10.1" />
+
+  <project name="mirom/android_kernel_xiaomi_mione_plus" path="kernel/xiaomi/mi1" remote="github" revision="master" />
+</manifest>

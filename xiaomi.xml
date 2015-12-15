@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="mirom"
+          fetch="git://github.com/" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/mione_plus" name="mirom/android_device_xiaomi_mione_plus" remote="mirom" revision="cm-10.1" />
+  <!--
+  <project path="device/xiaomi/msm8660-common" name="mirom/android_device_xiaomi_msm8660-common" remote="mirom" revision="cm-10.1" />
+  -->
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/mione_plus" name="mirom/android_vendor_xiaomi_mione_plus" remote="mirom" revision="kernel-3.4" />
+  <!-- Local Projects -->
+  <project name="mirom/android_kernel_xiaomi_mione_plus" path="kernel/xiaomi/mi1" remote="github" revision="master" />
+</manifest>

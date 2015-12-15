@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+	<project path="kbc-developers/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+
+	<remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
+	<project name="kbc-developers/sc04e_recovery_ramdisk" path="bootable/recovery" remote="github" revision="TWRP"/>
+
+    <project name="kbc-developers/android_kernel_samsung_jfdcm" path="kernel/samsung/jfdcm" remote="github" />
+    <project name="kbc-developers/android_device_samsung_jfltedcm" path="device/samsung/jfdcm" remote="github" />
+
+    <!--
+	<remove-project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" />
+	<project name="kbc-developers/android_device_samsung_jf-common" path="device/samsung/jf-common" />
+	-->
+    <!--
+    	<project name="kbc-developers/android_vendor_samsung_jfdcm" path="vendor/samsung/jfdcm" remote="github" />
+    -->
+    
+    <!--
+    	<project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" />
+    -->
+
+    <!--
+	<remote name="local-proprietary_vendor_samsung" fetch="file:///home/derek/Workspace/Android-Rom/samsung/proprietary_vendor_samsung" />
+    -->
+    <project name="1and1get2/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+    
+    <!--
+    <project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" remote="github"/>
+    -->
+    <!--
+    kbc-developers/sc04e_boot_ramdisk
+    kbc-developers/sc04e_recovery_ramdisk
+    <project name="kbc-developers/kbc-developers/sc04e_boot_ramdisk" path="device/samsung/jfdcm" remote="github" />
+    <project name="kbc-developers/kbc-developers/sc04e_recovery_ramdisk" path="vendor/samsung/jfdcm" remote="github" />
+
+    <remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
+	<project name="kbc-developers/android_cwm_recovery" path="bootable/recovery" revision="cm-10.1-v6.0" />
+
+	<project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" />
+    -->
+
+</manifest>
